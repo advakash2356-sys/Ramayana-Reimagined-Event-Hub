@@ -1,0 +1,8 @@
+{
+  "name": "RamSetu",
+  "description": "An premium, temple-rich gaming platform centering around Sugriva's referral covenant, vip passes, color prediction astra forecasts, and task quests.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
