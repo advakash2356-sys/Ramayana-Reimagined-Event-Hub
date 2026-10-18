@@ -104,6 +104,11 @@ export const UpiRecharge: React.FC<UpiRechargeProps> = ({
           </button>
         </div>
 
+        {/* Simulation disclaimer */}
+        <div className="px-4 py-2 bg-yellow-100 border-b border-yellow-300 text-[11px] text-yellow-900 font-semibold text-center">
+          DEMO ONLY: play-money coins. No real money, UPI payment or bank transfer happens here.
+        </div>
+
         {/* Tab Select */}
         {status === 'idle' && (
           <div className="flex border-b border-amber-200">

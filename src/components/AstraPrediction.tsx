@@ -235,6 +235,9 @@ export const AstraPrediction: React.FC<AstraPredictionProps> = ({
 
   return (
     <div className="max-w-6xl mx-auto px-4 mt-2 space-y-6">
+      <div className="rounded-xl border border-yellow-400/40 bg-yellow-500/10 px-4 py-2 text-xs text-yellow-200 text-center font-semibold">
+        SIMULATED PLAY-MONEY DEMO: bet amounts are virtual coins with no cash value. No real money is wagered or paid out.
+      </div>
       
       {/* Sandbox Toggle & Zero-Monetary Legal Notice Header */}
       <div className="bg-[#0D1527]/90 border border-amber-500/30 rounded-2xl p-4 shadow-[0_0_25px_rgba(245,158,11,0.1)] flex flex-col md:flex-row items-center justify-between gap-4">

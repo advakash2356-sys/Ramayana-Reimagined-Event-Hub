@@ -88,3 +88,7 @@ Ramayana-Reimagined-Event-Hub/
 ├── package.json
 ├── tsconfig.json
 └── vite.config.ts
+
+## Disclaimer: simulated play-money only
+
+The "Astra Prediction" bets, coins, "UPI Recharge" and "withdraw" flows are a **front-end simulation**. There is no payment gateway, backend, or network call: balances are virtual coins held in browser state, outcomes come from `Math.random()` in `AstraPrediction.tsx`, and the UPI screen (`UpiRecharge.tsx`) just adds or subtracts coins after a 2-second timer. No real money is processed, and the coins have no cash value. Do not adapt this into a real-money product without legal review.
