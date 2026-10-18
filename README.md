@@ -19,7 +19,7 @@ Ramayana Reimagined: Event Hub
 - **Styling**: Tailwind CSS, `@tailwindcss/vite`
 - **Animation**: Motion (`motion/react`)
 - **Icons**: Lucide React
-- **AI & Server**: `@google/genai`, Express, `dotenv`
+- **Dependencies declared but not used in current code**: `@google/genai`, Express, `dotenv` (this app is a client-side Vite app; no server or AI calls)
 
 ## Setup
 
